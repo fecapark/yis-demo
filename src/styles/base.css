@@ -1,0 +1,48 @@
+@layer base {
+  * {
+    outline: 0;
+    box-sizing: border-box;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbarThumb) transparent;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-width: 1200px;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-neutral);
+    font-family:
+      'Pretendard Variable',
+      Pretendard,
+      -apple-system,
+      BlinkMacSystemFont,
+      system-ui,
+      Roboto,
+      'Helvetica Neue',
+      'Segoe UI',
+      'Apple SD Gothic Neo',
+      'Noto Sans KR',
+      'Malgun Gothic',
+      'Apple Color Emoji',
+      'Segoe UI Emoji',
+      'Segoe UI Symbol',
+      sans-serif;
+  }
+
+  input::placeholder {
+    color: var(--color-neutralPlaceholder);
+  }
+
+  a {
+    color: var(--color-blue500);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

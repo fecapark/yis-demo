@@ -31,7 +31,7 @@ export const ProfileSection = () => {
   return (
     <div className="flex w-full flex-col gap-10">
       <div className="flex flex-col items-center gap-4">
-        <ProfileAvatar avatarId={me.avatarId} rounded size={64} />
+        <ProfileAvatar avatarId={user.avatarId} rounded size={64} />
         <div className="text-xl font-semibold">{user.nickname}</div>
       </div>
 

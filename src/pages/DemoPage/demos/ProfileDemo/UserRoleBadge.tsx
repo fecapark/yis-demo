@@ -1,6 +1,6 @@
 import { tv } from 'tailwind-variants';
 
-import type { UserRoleType } from '@/pages/DemoPage/demos/ProfileDemo/type';
+import type { UserRoleType } from '@/pages/DemoPage/type';
 
 interface UserRoleBadgeProps {
   role: UserRoleType;
